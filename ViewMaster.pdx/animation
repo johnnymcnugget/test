@@ -1,0 +1,10 @@
+	-- TEST adding all this stuff inside the Slide function
+local lineSegment = playdate.geometry.lineSegment.new(200, 400, 200, 250)
+local lineAnimator = gfx.animator.new(2000, lineSegment, playdate.easingFunctions.outBounce)
+local slideSprintLine = Slide(200,300)
+
+-- TEST: added this update below just to test animation.
+function playdate.update()
+ self:moveTo(lineAnimator:currentValue())
+ gfx.sprite.update()
+end

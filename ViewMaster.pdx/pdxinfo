@@ -1,0 +1,10 @@
+name=ViewMaster
+author=Regan
+description=simulating a classic View Master
+bundleID=com.regan.viewmaster
+version=0.3
+buildNumber=0001
+imagePath=/images
+launchSoundPath=/sounds
+pdxversion=11200
+buildtime=727305757
