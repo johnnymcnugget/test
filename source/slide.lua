@@ -11,5 +11,7 @@ function Slide:init(x, y, imageName)
 	self:add()	
 end
 
+--TEST CHANGING FOR THE PURPOSES OF TESTING GIT UPLOAD
+
 
 
